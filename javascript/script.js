@@ -23,8 +23,8 @@ const sr = ScrollReveal({
     // reset: true //Animations Reeat
 })
 sr.reveal('.slide-information, .quality-container, .about-container, .footer-container')
-sr.reveal('.slide-image, .form-button, .copyright', {delay: 600, origin: 'bottom', interval: 100})
-sr.reveal('.prev, .right-about, .form',  {origin: 'left'})
+sr.reveal('.slide-image, .form-button', {delay: 600, origin: 'bottom', interval: 100})
+sr.reveal('.prev, .right-about, .form, .copyright',  {origin: 'left'})
 sr.reveal('.main-title, .next, .left-about, .shop-image', {origin: 'right'})
 sr.reveal('.services-card', {interval: 100})
 
